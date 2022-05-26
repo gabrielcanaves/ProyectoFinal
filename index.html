@@ -7,222 +7,524 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
     <link rel="shortcut icon" href="./assets/images/img_favicon.png">
-    <link rel="stylesheet" href="css\estilos.css">
+    <!-- <link rel="stylesheet" href="..\css\estilos.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="index">
-    <header class="encabezado">
-        <div class="encabezado__sup">
-            <div class="encabezado__sup__logo">
-                <a href="index.html"><img src="assets\images\img_logo.jpg" alt="Noticias" height="86px"></a>
-            </div>
-            <div class="encabezado__sup__clima">
-                CLIMA
-                <!-- insertar clima -->
-            </div>
-            <div class="encabezado__sup__fecha">
-                FECHA
-                <!-- insertar fecha y hora -->
-            </div>
-        </div>
-        <nav class="encabezado__nav">
-            <a href="index.html">INICIO</a>
-            <a href="pages\locales.html">LOCALES</a>
-            <a href="pages\nacionales.html">NACIONALES</a>
-            <a href="pages\contacto.html">CONTACTO</a>
-            <a href="pages\quienessomos.html">QUIENES SOMOS</a>
-        </nav>
-    </header>
-    <main class="ppal__index">
-        <!-- RESUMEN DE NOTICIAS -->
-        <section class="ppal__resumen">
-            <h2 class="ppal__resumen__h2">RESUMEN DE NOTICIAS</h2>
-            <div class=ppal__resumen__noticias>
-                <article class="ppal__resumen__noticias__n1">
-                    <h3>Título Noticia Res 1</h3>
-                    <div class="ppal__resumen__noticias__n1__contenido">
-                        <p>Lorem asdfd dolor, sit amet consectetur adipisicing elit. Animi temporibus exercitationem
-                            ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati optio porro
-                            sapiente aperiam, minima dicta a neque rerum? Ab, minus! Distinctio odit eligendi sunt
-                            aperiam aliquam quod recusandae, veritatis rerum eos natus cumque facilis sed accusamus,
-                            totam animi voluptas.</p>
-                        <a href="pages\noticiares1.html" target="_blank"><img src="assets\images\img_NotiRes1.jpg"
-                                alt="1er Noticia Resumen"></a>
+<body>
+    <div class="bg-light p-2 bg-gradient">
+        <header>
+            <div class="container-fluid shadow-sm mb-3 bg-body rounded">
+                <div class="row">
+                    <div class="col-2">
+                        <a href=".\index.html"> <img src="./assets/images/img_logo.jpg" class="rounded float-left"
+                                alt="Logo Noticias" height="50vh"></a>
                     </div>
-                </article>
-                <article class="ppal__resumen__noticias__n2">
-                    <h3>Título Noticia Res 2</h3>
-                    <div class="ppal__resumen__noticias__n2__contenido">
-                        <p>Lorem asdff dolor sit amet consectetur adipisicing elit. Quasi consequuntur veniam sit nemo
-                            enim ad eaque ducimus ipsa accusamus vitae modi, nostrum nisi voluptatum officiis quaerat
-                            vel harum necessitatibus laudantium! Nam quis asperiores sequi corrupti totam voluptate
-                            excepturi vero eos, consequatur aliquam, labore dolores laborum culpa harum, architecto
-                            deleniti necessitatibus.</p>
-                        <a href="pages\noticiares2.html" target="_blank"><img src="assets\images\img_NotiRes2.jpg"
-                                alt="2da Noticia Resumen"></a>
+                    <div class="col-10">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/locales.html">LOCALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/nacionales.html">NACIONALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/quienessomos.html">QUIENES SOMOS</a>
+                            </li>
+                        </ul>
                     </div>
-                </article>
-                <article class="ppal__resumen__noticias__n3">
-                    <h3>Título Noticia Res 3</h3>
-                    <div class="ppal__resumen__noticias__n3__contenido">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae similique tenetur, nisi
-                            exercitationem, natus recusandae velit deserunt saepe incidunt inventore ex? In provident
-                            ipsam esse tempore quod ipsum incidunt blanditiis!
-                            Eaque quasi vitae vero itaque eos, quas perspiciatis. Ea illo molestias, similique quidem
-                            doloribus dolor ducimus quas repellendus quae ipsum quo vel ex.</p>
-                        <a href="pages\noticiares3.html" target="_blank"><img src="assets\images\img_NotiRes3.jpg"
-                                alt="3er Noticia Resumen"></a>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <!-- DEPORTES -->
-        <div class="ppal__destacados">
-            <section class="ppal__destacados__deportes">
-                <h2 class="ppal__destacados__deportes__h2">DEPORTES</h2>
-                <article class="ppal__destacados__deportes__n1">
-                    <h3>Título Deportes 1</h3>
-                    <div class="ppal__destacados__deportes__n1__contenido">
-                        <img src="assets\images\img_deportes1.jpg" alt="Deportes 1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facilis dolores
-                            praesentium impedit earum magni aut, est nemo maiores itaque veniam odit, doloribus
-                            reprehenderit laudantium nesciunt aliquid blanditiis quasi. Ducimus. Inventore laboriosam
-                            ipsa distinctio possimus, deserunt consequatur neque omnis in doloribus magnam porro
-                            temporibus, rem optio hic nisi ab sequi reiciendis voluptate eum assumenda. Voluptas, eius?
-                            Praesentium deserunt temporibus delectus. In, eveniet! Vitae veniam nisi, nulla officia unde
-                            dolorem labore eos necessitatibus ut perferendis molestias corrupti reiciendis sequi
-                            quibusdam inventore obcaecati sapiente maiores distinctio quis animi voluptates. Debitis,
-                            iusto est? Consectetur qui enim quia eveniet aliquid cum quam omnis consequuntur
-                            exercitationem? Odit officiis quisquam labore? Animi id, quis repellendus non eaque aperiam
-                            quae hic harum cumque voluptatem esse itaque laudantium? Repellat nisi saepe ab vitae neque
-                            ipsa hic consequuntur possimus? Cupiditate esse dicta sed provident modi necessitatibus a,
-                            eos ipsam, ducimus atque consequatur animi id.</p>
-                    </div>
-                </article>
-                <article class="ppal__destacados__deportes__n2">
-                    <h3>Título Deportes 2</h3>
-                    <div class="ppal__destacados__deportes__n2__contenido">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem cumque similique eos
-                            nostrum culpa laudantium dolore quos suscipit vitae expedita exercitationem dolor iste
-                            quibusdam est, provident totam. Officiis, ex? Sunt quaerat neque omnis eaque quia odit,
-                            similique quis error cum distinctio deleniti aspernatur minus eveniet repellat, ipsa tenetur
-                            ut, vitae earum doloribus inventore a nulla hic commodi soluta. Error! Quis, deserunt
-                            explicabo repellendus rem a fuga possimus eaque voluptatum obcaecati officiis praesentium
-                            eius vero eum incidunt maxime fugit? Ex labore possimus suscipit veniam nulla, harum
-                            veritatis eos! Illo, earum. Vitae a cupiditate, impedit ea eaque autem fugiat eos illo
-                            tempore dolorem officia mollitia accusantium distinctio voluptatibus nesciunt neque, facilis
-                            modi tenetur. Possimus temporibus minima tenetur reiciendis rem dolorum. In laborum harum
-                            maiores dolores eaque nam at pariatur delectus incidunt dolorem id laudantium amet
-                            consectetur adipisicing elit. Labore rem enim modi, quo quos amet nisi dolorum? Possimus
-                            quae nam ipsum est assumenda optio reiciendis dignissimos?</p>
-                        <img src="assets\images\img_deportes2.jpg" alt="Deportes 2">
-                    </div>
-                </article>
-            </section>
-            <!-- LA CIUDAD -->
-            <section class="ppal__destacados__laciudad">
-                <h2 class="ppal__destacados__laciudad__h2">LA CIUDAD</h2>
-                <article class="ppal__destacados__laciudad__n1">
-                    <h3>Título La Ciudad 1</h3>
-                    <div class="ppal__destacados__laciudad__n1__contenido">
-                        <img src="assets\images\img_laciudad1.jpg" alt="La Ciudad 1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem cumque similique eos
-                            nostrum culpa laudantium dolore quos suscipit vitae expedita exercitationem dolor iste
-                            quibusdam est, provident totam. Officiis, ex? Sunt quaerat neque omnis eaque quia odit,
-                            similique quis error cum distinctio deleniti aspernatur minus eveniet repellat, ipsa tenetur
-                            ut, vitae earum doloribus inventore a nulla hic commodi soluta. Error! Quis, deserunt
-                            explicabo repellendus rem a fuga possimus eaque voluptatum obcaecati officiis praesentium
-                            eius vero eum incidunt maxime fugit? Ex labore possimus suscipit veniam nulla, harum
-                            veritatis eos! Illo, earum. Vitae a cupiditate, impedit ea eaque autem fugiat eos illo
-                            tempore dolorem in officia mollitia accusantium dolor distinctio voluptatibus adipisicing
-                            elit. Ab impedit nesciunt neque, facilis modi tenetur. Possimus temporibus minima tenetur
-                            reiciendis rem dolorum. In laborum harum maiores dolores eaque nam at pariatur nesciunt
-                            delectus incidunt dolorem id laudantium enim modi, quo quos amet nisi dolorum? Possimus quae
-                            nam ipsum est assumenda optio reiciendis dignissimos?</p>
-                    </div>
-                </article>
-                <article class="ppal__destacados__laciudad__n2">
-                    <h3>Título La Ciudad 2</h3>
-                    <div class="ppal__destacados__laciudad__n2__contenido">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit quibusdam maiores non
-                            officiis corporis aperiam eveniet tempore placeat debitis alias voluptatibus ipsum vel
-                            nihil, mollitia obcaecati, accusantium, consequuntur eius facilis. Eligendi dolor iste
-                            excepturi est maxime cum, libero laudantium debitis nihil doloremque cupiditate voluptate
-                            sequi commodi et repudiandae eius suscipit perspiciatis, reiciendis dolore laboriosam soluta
-                            ea, adipisci officia assumenda. Iste. Fugit nesciunt fugiat vitae architecto sapiente, fuga
-                            repellendus consequatur placeat asperiores cum excepturi iusto a animi error voluptatem
-                            omnis veritatis quas distinctio illum et ad! Impedit dolor in iure nam. Distinctio illum
-                            excepturi tempora quibusdam tempore dolor enim modi, quos amet quia quidem laborum
-                            architecto veniam, dignissimos dolores officiis ducimus consectetur expedita nostrum animi
-                            quod quas velit? Omnis quas dolorem alias consectetur a porro. Numquam modi laboriosam
-                            tempore ipsa? Sed eum expedita cum, repudiandae dignissimos enim inventore, numquam magnam
-                            explicabo labore ex dolore facilis animi.</p>
-                        <img src="assets\images\img_laciudad2.jpg" alt="La Ciudad 2">
-                    </div>
-                </article>
-            </section>
-        </div>
-        <aside class="apartado">
-            <!-- OPINION -->
-            <section class="apartado__opinion">
-                <div class="apartado__opinion__sup">
-                    <h2 class="apartado__opinion__sup__h2">OPINION</h2>
-                    <a href="mailto:notasdeopinion@noticias.com?Subject=Nota%20de%20opinion">Envianos tu opinion</a>
                 </div>
-                <div class="apartado__opinion__op">
-                    <article class="apartado__opinion__op_1">
-                        <h3>Juan Carlos (67 años, jubilado)</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ut assumenda modi nostrum
-                            quisquam adipisci voluptate. Dicta consequuntur unde facilis sed dolor, tempore incidunt
-                            fuga, quas atque optio ducimus adipisci!
-                            Libero, pariatur, quasi reiciendis officia totam explicabo voluptatum eos minus aliquam
-                            corrupti numquam consequuntur est id ab saepe perferendis quisquam deserunt illum. Aut culpa
-                            totam pariatur rem omnis qui rerum.
-                            Expedita, corporis. Fugit suscipit, sint eos labore amet eum quod? Ea sit laborum harum
-                            mollitia eius inventore earum facere eos. Iste, aliquid sint! Deserunt praesentium dolorem
-                            ad unde recusandae? Cum.
-                            Saepe, praesentium itaque? Vitae quo minima consequuntur ea asperiores magni maiores odit
-                        </p>
+            </div>
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <h2>Resumen de noticias
+                    <small class="text-muted"><em>Te mostramos las noticias mas importantes.</em></small>
+                </h2>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    <div class="carousel slide" id="carousel-421990">
+                        <ol class="carousel-indicators">
+                            <li data-slide-to="0" data-target="#carousel-421990" class="active">
+                            </li>
+                            <li data-slide-to="1" data-target="#carousel-421990">
+                            </li>
+                            <li data-slide-to="2" data-target="#carousel-421990">
+                            </li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="pages\noticiares1.html" target="_blank">
+                                    <img class="d-block w-100" alt="Carousel Bootstrap First"
+                                        src="https://www.layoutit.com/img/sports-q-c-1600-500-1.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h4>
+                                        Título Noticia Res 1 </h4>
+                                    <p>
+                                        Lorem asdfd dolor, sit amet consectetur adipisicing elit. Animi temporibus
+                                        exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati
+                                        optio
+                                        porro
+                                        sapiente aperiam, minima dicta a neque rerum? Ab, minus! Distinctio odit
+                                        eligendi sunt
+                                        aperiam aliquam quod recusandae, veritatis rerum eos natus cumque facilis sed
+                                        accusamus,
+                                        totam animi voluptas. Lorem asdfd dolor, sit amet consectetur adipisicing elit.
+                                        Animi temporibus exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati
+                                        optio
+                                        porro
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="pages\noticiares2.html" target="_blank">
+                                    <img class="d-block w-100" alt="Carousel Bootstrap Second"
+                                        src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h4>
+                                        Título Noticia Res 2
+                                    </h4>
+                                    <p>
+                                        Lorem asdfd dolor, sit amet consectetur adipisicing elit. Animi temporibus
+                                        exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati
+                                        optio
+                                        porro
+                                        sapiente aperiam, minima dicta a neque rerum? Ab, minus! Distinctio odit
+                                        eligendi sunt
+                                        aperiam aliquam quod recusandae, veritatis rerum eos natus cumque facilis sed
+                                        accusamus,
+                                        totam animi voluptas. Lorem asdfd dolor, sit amet consectetur adipisicing elit.
+                                        Animi temporibus exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati
+                                        optio
+                                        porro
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="pages\noticiares3.html" target="_blank">
+                                    <img class="d-block w-100" alt="Carousel Bootstrap Third"
+                                        src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" /></a>
+                                <div class="carousel-caption">
+                                    <h4>
+                                        Título Noticia Res 3
+                                    </h4>
+                                    <p>
+                                        Lorem asdfd dolor, sit amet consectetur adipisicing elit. Animi temporibus
+                                        exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur
+                                        obcaecati
+                                        optio
+                                        porro
+                                        sapiente aperiam, minima dicta a neque rerum? Ab, minus! Distinctio odit
+                                        eligendi sunt
+                                        aperiam aliquam quod recusandae, veritatis rerum eos natus cumque facilis
+                                        sed
+                                        accusamus,
+                                        totam animi voluptas. Lorem asdfd dolor, sit amet consectetur adipisicing
+                                        elit.
+                                        Animi temporibus exercitationem
+                                        ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur
+                                        obcaecati
+                                        optio
+                                        porro
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <a class="carousel-control-prev" href="#carousel-421990" data-slide="prev"><span
+                                class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
+                        <a class="carousel-control-next" href="#carousel-421990" data-slide="next"><span
+                                class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <main class="ppal__index">
+            <!-- RESUMEN DE NOTICIAS 
+            <section class="ppal__resumen">
+                <h2 class="ppal__resumen__h2">RESUMEN DE NOTICIAS</h2>
+                <div class=ppal__resumen__noticias>
+                    <article class="ppal__resumen__noticias__n1">
+                        <h3>Título Noticia Res 1</h3>
+                        <div class="ppal__resumen__noticias__n1__contenido">
+                            <p>Lorem asdfd dolor, sit amet consectetur adipisicing elit. Animi temporibus exercitationem
+                                ratione? Voluptate, minus ratione? Aspernatur praesentium, pariatur obcaecati optio
+                                porro
+                                sapiente aperiam, minima dicta a neque rerum? Ab, minus! Distinctio odit eligendi sunt
+                                aperiam aliquam quod recusandae, veritatis rerum eos natus cumque facilis sed accusamus,
+                                totam animi voluptas.</p>
+                            <a href="pages\noticiares1.html" target="_blank"><img src="assets\images\img_NotiRes1.jpg"
+                                    alt="1er Noticia Resumen"></a>
+                        </div>
                     </article>
-                    <article class="apartado__opinion__op_2">
-                        <h3>Susana (49 años, docente)</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ut assumenda modi nostrum
-                            quisquam adipisci voluptate. Dicta consequuntur unde facilis sed dolor, tempore incidunt
-                            fuga, quas atque optio ducimus adipisci!
-                            Libero, pariatur, quasi reiciendis officia totam explicabo voluptatum eos minus aliquam
-                            corrupti numquam consequuntur est id ab saepe perferendis quisquam deserunt illum. Aut culpa
-                            totam pariatur rem omnis qui rerum.
-                            Expedita, corporis. Fugit suscipit, sint eos labore amet eum quod? Ea sit laborum harum
-                            mollitia eius inventore earum facere eos. Iste, aliquid sint! Deserunt praesentium dolorem
-                            ad unde recusandae? Cum.
-                            Saepe, praesentium itaque? Vitae quo minima consequuntur ea asperiores magni maiores odit
-                        </p>
+                    <article class="ppal__resumen__noticias__n2">
+                        <h3>Título Noticia Res 2</h3>
+                        <div class="ppal__resumen__noticias__n2__contenido">
+                            <p>Lorem asdff dolor sit amet consectetur adipisicing elit. Quasi consequuntur veniam sit
+                                nemo
+                                enim ad eaque ducimus ipsa accusamus vitae modi, nostrum nisi voluptatum officiis
+                                quaerat
+                                vel harum necessitatibus laudantium! Nam quis asperiores sequi corrupti totam voluptate
+                                excepturi vero eos, consequatur aliquam, labore dolores laborum culpa harum, architecto
+                                deleniti necessitatibus.</p>
+                            <a href="pages\noticiares2.html" target="_blank"><img src="assets\images\img_NotiRes2.jpg"
+                                    alt="2da Noticia Resumen"></a>
+                        </div>
+                    </article>
+                    <article class="ppal__resumen__noticias__n3">
+                        <h3>Título Noticia Res 3</h3>
+                        <div class="ppal__resumen__noticias__n3__contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae similique tenetur, nisi
+                                exercitationem, natus recusandae velit deserunt saepe incidunt inventore ex? In
+                                provident
+                                ipsam esse tempore quod ipsum incidunt blanditiis!
+                                Eaque quasi vitae vero itaque eos, quas perspiciatis. Ea illo molestias, similique
+                                quidem
+                                doloribus dolor ducimus quas repellendus quae ipsum quo vel ex.</p>
+                            <a href="pages\noticiares3.html" target="_blank"><img src="assets\images\img_NotiRes3.jpg"
+                                    alt="3er Noticia Resumen"></a>
+                        </div>
                     </article>
                 </div>
-        </aside>
-    </main>
-    <footer class="piepagina">
-        <div class="piepagina__contacto">
-            <a href="mailto:contacto@noticias.com">Escribinos a contacto@noticias.com</a>
-        </div>
-        <div class="piepagina__redes">
-            <a href="http://www.facebook.com/Noticias_Fb" target="_blank"><img alt="Seguinos en Facebook"
-                    src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" /></a>
-            <a href="https://www.instagram.com/Noticias_Ig" target="_blank"><img alt="Seguinos en Instagram"
-                    src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" /></a>
-            <a href="http://twitter.com/Noticias_Tw" target="_blank"><img alt="Seguinos en Twitter"
-                    src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" /></a>
-            <a href="https://www.youtube.com/Noticias_Yt" target="_blank"><img alt="Seguinos en YouTube"
-                    src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" /></a>
-        </div>
-        <nav class="piepagina__nav">
-            <a href="index.html">INICIO</a>
-            <a href="pages\locales.html">LOCALES</a>
-            <a href="pages\nacionales.html">NACIONALES</a>
-            <a href="pages\contacto.html">CONTACTO</a>
-            <a href="pages\quienessomos.html">QUIENES SOMOS</a>
-        </nav>
-    </footer>
+            </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- DEPORTES -->
+            <div class="ppal__destacados">
+                <section class="ppal__destacados__deportes">
+                    <h2 class="ppal__destacados__deportes__h2">DEPORTES</h2>
+                    <article class="ppal__destacados__deportes__n1">
+                        <h3>Título Deportes 1</h3>
+                        <div class="ppal__destacados__deportes__n1__contenido">
+                            <img src="assets\images\img_deportes1.jpg" alt="Deportes 1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facilis dolores
+                                praesentium impedit earum magni aut, est nemo maiores itaque veniam odit, doloribus
+                                reprehenderit laudantium nesciunt aliquid blanditiis quasi. Ducimus. Inventore
+                                laboriosam
+                                ipsa distinctio possimus, deserunt consequatur neque omnis in doloribus magnam porro
+                                temporibus, rem optio hic nisi ab sequi reiciendis voluptate eum assumenda. Voluptas,
+                                eius?
+                                Praesentium deserunt temporibus delectus. In, eveniet! Vitae veniam nisi, nulla officia
+                                unde
+                                dolorem labore eos necessitatibus ut perferendis molestias corrupti reiciendis sequi
+                                quibusdam inventore obcaecati sapiente maiores distinctio quis animi voluptates.
+                                Debitis,
+                                iusto est? Consectetur qui enim quia eveniet aliquid cum quam omnis consequuntur
+                                exercitationem? Odit officiis quisquam labore? Animi id, quis repellendus non eaque
+                                aperiam
+                                quae hic harum cumque voluptatem esse itaque laudantium? Repellat nisi saepe ab vitae
+                                neque
+                                ipsa hic consequuntur possimus? Cupiditate esse dicta sed provident modi necessitatibus
+                                a,
+                                eos ipsam, ducimus atque consequatur animi id.</p>
+                        </div>
+                    </article>
+                    <article class="ppal__destacados__deportes__n2">
+                        <h3>Título Deportes 2</h3>
+                        <div class="ppal__destacados__deportes__n2__contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem cumque similique eos
+                                nostrum culpa laudantium dolore quos suscipit vitae expedita exercitationem dolor iste
+                                quibusdam est, provident totam. Officiis, ex? Sunt quaerat neque omnis eaque quia odit,
+                                similique quis error cum distinctio deleniti aspernatur minus eveniet repellat, ipsa
+                                tenetur
+                                ut, vitae earum doloribus inventore a nulla hic commodi soluta. Error! Quis, deserunt
+                                explicabo repellendus rem a fuga possimus eaque voluptatum obcaecati officiis
+                                praesentium
+                                eius vero eum incidunt maxime fugit? Ex labore possimus suscipit veniam nulla, harum
+                                veritatis eos! Illo, earum. Vitae a cupiditate, impedit ea eaque autem fugiat eos illo
+                                tempore dolorem officia mollitia accusantium distinctio voluptatibus nesciunt neque,
+                                facilis
+                                modi tenetur. Possimus temporibus minima tenetur reiciendis rem dolorum. In laborum
+                                harum
+                                maiores dolores eaque nam at pariatur delectus incidunt dolorem id laudantium amet
+                                consectetur adipisicing elit. Labore rem enim modi, quo quos amet nisi dolorum? Possimus
+                                quae nam ipsum est assumenda optio reiciendis dignissimos?</p>
+                            <img src="assets\images\img_deportes2.jpg" alt="Deportes 2">
+                        </div>
+                    </article>
+                </section>
+                <!-- LA CIUDAD -->
+                <section class="ppal__destacados__laciudad">
+                    <h2 class="ppal__destacados__laciudad__h2">LA CIUDAD</h2>
+                    <article class="ppal__destacados__laciudad__n1">
+                        <h3>Título La Ciudad 1</h3>
+                        <div class="ppal__destacados__laciudad__n1__contenido">
+                            <img src="assets\images\img_laciudad1.jpg" alt="La Ciudad 1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem cumque similique eos
+                                nostrum culpa laudantium dolore quos suscipit vitae expedita exercitationem dolor iste
+                                quibusdam est, provident totam. Officiis, ex? Sunt quaerat neque omnis eaque quia odit,
+                                similique quis error cum distinctio deleniti aspernatur minus eveniet repellat, ipsa
+                                tenetur
+                                ut, vitae earum doloribus inventore a nulla hic commodi soluta. Error! Quis, deserunt
+                                explicabo repellendus rem a fuga possimus eaque voluptatum obcaecati officiis
+                                praesentium
+                                eius vero eum incidunt maxime fugit? Ex labore possimus suscipit veniam nulla, harum
+                                veritatis eos! Illo, earum. Vitae a cupiditate, impedit ea eaque autem fugiat eos illo
+                                tempore dolorem in officia mollitia accusantium dolor distinctio voluptatibus
+                                adipisicing
+                                elit. Ab impedit nesciunt neque, facilis modi tenetur. Possimus temporibus minima
+                                tenetur
+                                reiciendis rem dolorum. In laborum harum maiores dolores eaque nam at pariatur nesciunt
+                                delectus incidunt dolorem id laudantium enim modi, quo quos amet nisi dolorum? Possimus
+                                quae
+                                nam ipsum est assumenda optio reiciendis dignissimos?</p>
+                        </div>
+                    </article>
+                    <article class="ppal__destacados__laciudad__n2">
+                        <h3>Título La Ciudad 2</h3>
+                        <div class="ppal__destacados__laciudad__n2__contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit quibusdam maiores non
+                                officiis corporis aperiam eveniet tempore placeat debitis alias voluptatibus ipsum vel
+                                nihil, mollitia obcaecati, accusantium, consequuntur eius facilis. Eligendi dolor iste
+                                excepturi est maxime cum, libero laudantium debitis nihil doloremque cupiditate
+                                voluptate
+                                sequi commodi et repudiandae eius suscipit perspiciatis, reiciendis dolore laboriosam
+                                soluta
+                                ea, adipisci officia assumenda. Iste. Fugit nesciunt fugiat vitae architecto sapiente,
+                                fuga
+                                repellendus consequatur placeat asperiores cum excepturi iusto a animi error voluptatem
+                                omnis veritatis quas distinctio illum et ad! Impedit dolor in iure nam. Distinctio illum
+                                excepturi tempora quibusdam tempore dolor enim modi, quos amet quia quidem laborum
+                                architecto veniam, dignissimos dolores officiis ducimus consectetur expedita nostrum
+                                animi
+                                quod quas velit? Omnis quas dolorem alias consectetur a porro. Numquam modi laboriosam
+                                tempore ipsa? Sed eum expedita cum, repudiandae dignissimos enim inventore, numquam
+                                magnam
+                                explicabo labore ex dolore facilis animi.</p>
+                            <img src="assets\images\img_laciudad2.jpg" alt="La Ciudad 2">
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <aside class="apartado">
+                <!-- OPINION -->
+                <section class="apartado__opinion">
+                    <div class="apartado__opinion__sup">
+                        <h2 class="apartado__opinion__sup__h2">OPINION</h2>
+                        <a href="mailto:notasdeopinion@noticias.com?Subject=Nota%20de%20opinion">Envianos tu opinion</a>
+                    </div>
+                    <div class="apartado__opinion__op">
+                        <article class="apartado__opinion__op_1">
+                            <h3>Juan Carlos (67 años, jubilado)</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ut assumenda modi nostrum
+                                quisquam adipisci voluptate. Dicta consequuntur unde facilis sed dolor, tempore incidunt
+                                fuga, quas atque optio ducimus adipisci!
+                                Libero, pariatur, quasi reiciendis officia totam explicabo voluptatum eos minus aliquam
+                                corrupti numquam consequuntur est id ab saepe perferendis quisquam deserunt illum. Aut
+                                culpa
+                                totam pariatur rem omnis qui rerum.
+                                Expedita, corporis. Fugit suscipit, sint eos labore amet eum quod? Ea sit laborum harum
+                                mollitia eius inventore earum facere eos. Iste, aliquid sint! Deserunt praesentium
+                                dolorem
+                                ad unde recusandae? Cum.
+                                Saepe, praesentium itaque? Vitae quo minima consequuntur ea asperiores magni maiores
+                                odit
+                            </p>
+                        </article>
+                        <article class="apartado__opinion__op_2">
+                            <h3>Susana (49 años, docente)</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ut assumenda modi nostrum
+                                quisquam adipisci voluptate. Dicta consequuntur unde facilis sed dolor, tempore incidunt
+                                fuga, quas atque optio ducimus adipisci!
+                                Libero, pariatur, quasi reiciendis officia totam explicabo voluptatum eos minus aliquam
+                                corrupti numquam consequuntur est id ab saepe perferendis quisquam deserunt illum. Aut
+                                culpa
+                                totam pariatur rem omnis qui rerum.
+                                Expedita, corporis. Fugit suscipit, sint eos labore amet eum quod? Ea sit laborum harum
+                                mollitia eius inventore earum facere eos. Iste, aliquid sint! Deserunt praesentium
+                                dolorem
+                                ad unde recusandae? Cum.
+                                Saepe, praesentium itaque? Vitae quo minima consequuntur ea asperiores magni maiores
+                                odit
+                            </p>
+                        </article>
+                    </div>
+            </aside>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="text-left">
+                            <a href="mailto:contacto@noticias.com">Escribinos a contacto@noticias.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="text-center">
+                            <a href="http://www.facebook.com/Noticias_Fb" target="_blank"><img
+                                    alt="Seguinos en Facebook"
+                                    src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" /></a>
+                            <a href="https://www.instagram.com/Noticias_Ig" target="_blank"><img
+                                    alt="Seguinos en Instagram"
+                                    src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" /></a>
+                            <a href="http://twitter.com/Noticias_Tw" target="_blank"><img alt="Seguinos en Twitter"
+                                    src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" /></a>
+                            <a href="https://www.youtube.com/Noticias_Yt" target="_blank"><img alt="Seguinos en YouTube"
+                                    src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-right">
+                            <nav>
+                                <a href=".\index.html">INICIO</a>
+                                <a href="./pages/locales.html">LOCALES</a>
+                                <a href="./pages/nacionales.html">NACIONALES</a>
+                                <a href="./pages/contacto.html">CONTACTO</a>
+                                <a href="./pages/quienessomos.html">QUIENES SOMOS</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

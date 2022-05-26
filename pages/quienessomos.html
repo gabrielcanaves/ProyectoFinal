@@ -5,65 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quienes Somos</title>
+    <title>Quiénes Somos</title>
     <link rel="shortcut icon" href="../assets/images/img_favicon.png">
-    <link rel="stylesheet" href="..\css\estilos.css">
+    <!-- <link rel="stylesheet" href="..\css\estilos.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class=encabezado>
-        <div class="encabezado__sup">
-            <div class="encabezado__sup__logo">
-                <a href="..\index.html"><img src="..\assets\images\img_logo.jpg" alt="Noticias" height="86px"></a>
+    <div class="bg-light p-2 bg-gradient">
+        <header>
+            <div class="container-fluid shadow-sm mb-3 bg-body rounded">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="..\index.html"> <img src="../assets/images/img_logo.jpg" class="rounded float-left"
+                                alt="Logo Noticias" height="50vh"></a>
+                    </div>
+                    <div class="col-10">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="..\index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="locales.html">LOCALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nacionales.html">NACIONALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="quienessomos.html">QUIENES SOMOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="encabezado__sup__clima">
-                CLIMA
-                <!-- insertar clima -->
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <h2>QUIÉNES SOMOS
+                        <small class="text-muted"><em>Te contamos un poco sobre nosotros.</em></small>
+                    </h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="row p-2">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-dark text-white">
+                                <img src="../assets/images/img_quienesomos_1.jpg" class="card-img"
+                                    alt="Quienes somos - Nosotros">
+                                <div class="card-img-overlay">
+                                    <h1 class="card-title display-4">NOSOTROS</h1>
+                                    <h5 class="card-text display-6">Somos un portal de noticias independiente de la ciudad de
+                                        Rosario.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-dark text-white">
+                                <img src="../assets/images/img_quienesomos_2.jpg" class="card-img"
+                                    alt="Quienes somos - Nuestras Oficinas">
+                                <div class="card-img-overlay">
+                                    <h1 class="card-title display-4">NUESTRAS OFICINAS</h1>
+                                    <h5 class="card-text display-6">Te mostramos como trabajamos y donde creamos el contenido de
+                                        nuestro portal.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-dark text-white">
+                                <img src="../assets/images/img_quienesomos_3.jpg" class="card-img"
+                                    alt="Quienes somos - Donde estamos">
+                                <div class="card-img-overlay">
+                                    <h3 class="card-title display-4">DONDE ESTAMOS</h3>
+                                    <h5 class="card-text display-6">Nos podes encontrar en calle y calle de la ciudad de Rosario.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="encabezado__sup__fecha">
-                FECHA
-                <!-- insertar fecha y hora -->
-            </div>
-        </div>
-        <nav class="encabezado__nav">
-            <a href="..\index.html">INICIO</a>
-            <a href="locales.html">LOCALES</a>
-            <a href="nacionales.html">NACIONALES</a>
-            <a href="contacto.html">CONTACTO</a>
-            <a href="quienessomos.html">QUIENES SOMOS</a>
-        </nav>
-    </header>
-    <main class="ppal">
-
-        --------------------------------------<br>
-        --------------------------------------<br>
-        QUIENES SOMOS<br>
-        --------------------------------------<br>
-        --------------------------------------<br>
-
-    </main>
-    <footer class="piepagina">
-        <div class="piepagina__contacto">
-            <a href="mailto:contacto@noticias.com">Escribinos a contacto@noticias.com</a>
-        </div>
-        <div class="piepagina__redes">
-            <a href="http://www.facebook.com/Noticias_Fb" target="_blank"><img alt="Seguinos en Facebook"
-                    src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" /></a>
-            <a href="https://www.instagram.com/Noticias_Ig" target="_blank"><img alt="Seguinos en Instagram"
-                    src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" /></a>
-            <a href="http://twitter.com/Noticias_Tw" target="_blank"><img alt="Seguinos en Twitter"
-                    src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" /></a>
-            <a href="https://www.youtube.com/Noticias_Yt" target="_blank"><img alt="Seguinos en YouTube"
-                    src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" /></a>
-        </div>
-        <nav class="piepagina__nav">
-            <a href="..\index.html">INICIO</a>
-            <a href="locales.html">LOCALES</a>
-            <a href="nacionales.html">NACIONALES</a>
-            <a href="contacto.html">CONTACTO</a>
-            <a href="quienessomos.html">QUIENES SOMOS</a>
-        </nav>
-    </footer>
+        </main>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="text-left">
+                            <a href="mailto:contacto@noticias.com">Escribinos a contacto@noticias.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="text-center">
+                            <a href="http://www.facebook.com/Noticias_Fb" target="_blank"><img
+                                    alt="Seguinos en Facebook"
+                                    src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png" /></a>
+                            <a href="https://www.instagram.com/Noticias_Ig" target="_blank"><img
+                                    alt="Seguinos en Instagram"
+                                    src="https://lh5.googleusercontent.com/-vBqtz2iv2BE/UIqE3LQyFMI/AAAAAAAABgA/TJ4W-vIBjsc/s32/instagram32.png" /></a>
+                            <a href="http://twitter.com/Noticias_Tw" target="_blank"><img alt="Seguinos en Twitter"
+                                    src="https://lh6.googleusercontent.com/--aIk2uBwEKM/T3nN1x09jBI/AAAAAAAAAs8/qzDsbw3kEm8/s32/twitter32.png" /></a>
+                            <a href="https://www.youtube.com/Noticias_Yt" target="_blank"><img alt="Seguinos en YouTube"
+                                    src="https://lh5.googleusercontent.com/-TXzlKCbKzWs/T6mYkDhTXyI/AAAAAAAAA1U/vm95Q2KwrYg/s32/youtube32.png" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-right">
+                            <nav>
+                                <a href="..\index.html">INICIO</a>
+                                <a href="locales.html">LOCALES</a>
+                                <a href="nacionales.html">NACIONALES</a>
+                                <a href="contacto.html">CONTACTO</a>
+                                <a href="quienessomos.html">QUIENES SOMOS</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
