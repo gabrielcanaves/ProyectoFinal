@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
     <link rel="shortcut icon" href="./assets/images/img_favicon.png">
-    <!-- <link rel="stylesheet" href="..\css\estilos.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/imagehover.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
@@ -25,19 +25,20 @@
                     <div class="col-10">
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link active" href="./index.html">INICIO</a>
+                                <a class="nav-link active link-modif" href="./index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./pages/locales.html">LOCALES</a>
+                                <a class="nav-link link-modif" href="./pages/locales.html">LOCALES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./pages/nacionales.html">NACIONALES</a>
+                                <a class="nav-link link-modif" href="./pages/nacionales.html">NACIONALES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                                <a class="nav-link link-modif" href="./pages/contacto.html">CONTACTO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./pages/quienessomos.html">QUIENES SOMOS</a>
+                                <a class="nav-link link-modif" href="./pages/quienessomos.html">QUIENES
+                                    SOMOS</a>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +75,7 @@
                                         <a href="pages\noticiares1.html" target="_blank">
                                             <img class="d-block w-100" alt="Carousel Bootstrap First"
                                                 src="./assets/images/img_resumen_1.jpg" /></a>
-                                        <div class="carousel-caption text-dark">
+                                        <div class="carousel-caption text-carousel-modif">
                                             <h4>Final de la Champions Liverpool - Real Madrid</h4>
                                             <p>
                                                 Real Madrid y Liverpool se enfrentan hoy en la gran final
@@ -88,7 +89,7 @@
                                         <a href="pages\noticiares2.html" target="_blank">
                                             <img class="d-block w-100" alt="Carousel Bootstrap Second"
                                                 src="./assets/images/img_resumen_2.jpg" /></a>
-                                        <div class="carousel-caption">
+                                        <div class="carousel-caption text-carousel-modif">
                                             <h4>
                                                 Curva de la muerte de Pérez</h4>
                                             <p>
@@ -111,24 +112,19 @@
                                         <a href="pages\noticiares3.html" target="_blank">
                                             <img class="d-block w-100" alt="Carousel Bootstrap Third"
                                                 src="./assets/images/img_resumen_3.jpg" /></a>
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Criptomonedas, NFT y blockchain, el arte en los tiempos de inteligencia
-                                                artificial
-                                            </h4>
+                                        <div class="carousel-caption text-carousel-modif">
+                                            <h4>Criptomonedas y NFTs, arte en tiempos de AI</h4>
                                             <p>
                                                 Un coloquio interdisciplinario sobre el arte mediático, su
                                                 comercialización
-                                                digital y el impacto en la escena local y global se hará este domingo en
-                                                el
-                                                Centro Cultural Néstor Kirchner (CCK), con la participación de
-                                                especialistas
+                                                digital y el impacto en la escena global se hará este domingo en
+                                                el CCK, con la participación de especialistas
                                                 internacionales del campo del arte, la comunicación, la ingeniería, lo
                                                 judicial, la arquitectura y la programación, como María Valdez, docente
                                                 de
                                                 la Universidad Nacional de las Artes la artista brasileña Rejane Cantoni
                                                 y
-                                                el educador canadiense Andrew McLuhan.
+                                                el educador Andrew McLuhan.
                                             </p>
                                         </div>
                                     </div>
@@ -151,18 +147,20 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="shadow p-3 mb-3 bg-body">
-                            <h4>Deportes</h4>
+                            <h4 class="text-center">Deportes</h4>
                             <div class="card mb-2">
                                 <div class="row g-0">
                                     <div class="col-md-5">
                                         <img src="./assets/images/img_deportes1.jpg"
-                                            class="img-fluid rounded-start imghvr-blur" alt="Deportes Noticia 1">
+                                            class="img-fluid rounded-start img-format" alt="Deportes Noticia 1">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
-                                            <h5 class="card-title">La mágica despedida de Marco Ruben de Rosario
+                                            <h5 class="card-title text-center">La mágica despedida de Marco Ruben de
+                                                Rosario
                                                 Central</h5>
-                                            <p class="card-text">El goleador histórico colgó los botines con un grito,
+                                            <p class="card-text text-center">El goleador histórico colgó los botines con
+                                                un grito,
                                                 Central venció 3-1 a Estudiantes, en un Gigante
                                                 de Arroyito colmado para despedir a su máximo
                                                 goleador, Marco Ruben, quien dijo: “La realidad superó los mejores
@@ -175,13 +173,14 @@
                             <div class="card mb-2">
                                 <div class="row g-0">
                                     <div class="col-md-5">
-                                        <img src="./assets/images/img_deportes2.jpg" class="img-fluid rounded-start"
-                                            alt="Deportes Noticia 2">
+                                        <img src="./assets/images/img_deportes2.jpg"
+                                            class="img-fluid rounded-start img-format" alt="Deportes Noticia 2">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
-                                            <h5 class="card-title">Luis Scola se retira como jugador</h5>
-                                            <p class="card-text">Jugó su último partido, en la eliminación de la
+                                            <h5 class="card-title text-center">Luis Scola se retira como jugador</h5>
+                                            <p class="card-text text-center">Jugó su último partido, en la eliminación
+                                                de la
                                                 selección argentina ante Australia, en los cuartos de
                                                 final de los Juegos Olímpicos de Tokio 2020. Más allá del resultado, dio
                                                 todo hasta el último segundo dentro y fuera de la cancha.
@@ -194,18 +193,19 @@
                     </div>
                     <div class="col-md-6">
                         <div class="shadow p-3 mb-3 bg-body">
-                            <h4>La Ciudad</h4>
+                            <h4 class="text-center">La Ciudad</h4>
                             <div class="card mb-2">
                                 <div class="row g-0">
                                     <div class="col-md-5">
-                                        <img src="./assets/images/img_laciudad1.jpg" class="img-fluid rounded-start"
-                                            alt="La Ciudad Noticia 1">
+                                        <img src="./assets/images/img_laciudad1.jpg"
+                                            class="img-fluid rounded-start img-format" alt="La Ciudad Noticia 1">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
-                                            <h5 class="card-title">El tiempo: bajas temperaturas y sol en
+                                            <h5 class="card-title text-center">El tiempo: bajas temperaturas y sol en
                                                 cuentagotas</h5>
-                                            <p class="card-text">Rosario y la región tuvieron un amanecer frío y nublado
+                                            <p class="card-text text-center">Rosario y la región tuvieron un amanecer
+                                                frío y nublado
                                                 este, el último sábado de mayo que se insinúa como un día gris,
                                                 que invita a quedarse adentro, cerca de la estufa y con los pies
                                                 abrigados con unas gruesas pantuflas.
@@ -217,14 +217,16 @@
                             <div class="card mb-2">
                                 <div class="row g-0">
                                     <div class="col-md-5">
-                                        <img src="./assets/images/img_laciudad2.jpg" class="img-fluid rounded-start"
-                                            alt="La Ciudad Noticia 2">
+                                        <img src="./assets/images/img_laciudad2.jpg"
+                                            class="img-fluid rounded-start img-format" alt="La Ciudad Noticia 2">
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
-                                            <h5 class="card-title">Terminal Puerto Rosario, su conducta fiscal hostil
+                                            <h5 class="card-title text-center">Terminal Puerto Rosario, su conducta
+                                                fiscal hostil
                                             </h5>
-                                            <p class="card-text">La empresa se llama Terminal Puerto Rosario (TPR).
+                                            <p class="card-text text-center">La empresa se llama Terminal Puerto Rosario
+                                                (TPR).
                                                 Opera dos muelles del Puerto de Rosario. Pero sostiene que la
                                                 Municipalidad de
                                                 Rosario no tiene jurisdicción para cobrarle el Drei. Ese fue el
@@ -244,7 +246,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="text-left">
-                                        <a href="mailto:notasdeopinion@noticias.com?Subject=Nota%20de%20opinion">Envianos
+                                        <a class="link-modif"
+                                            href="mailto:notasdeopinion@noticias.com?Subject=Nota%20de%20opinion">Envianos
                                             tu
                                             opinion</a>
                                     </div>
@@ -257,7 +260,7 @@
                                         <h5 class="offcanvas-title" id="offcanvasLabel">Juan Carlos (67 años, jubilado)
                                         </h5>
                                     </div>
-                                    <div class="offcanvas-body">
+                                    <div class="offcanvas-body text-op-modif">
                                         Me consta que el juez federal Lino Mirabelli es un hombre honrado, honorable y
                                         valiente. Lo que la gente, en general, no sabe es que no podía hacer otra cosa,
                                         pues
@@ -285,7 +288,7 @@
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasLabel">Susana (49 años, docente)</h5>
                                     </div>
-                                    <div class="offcanvas-body">
+                                    <div class="offcanvas-body text-op-modif">
                                         El objeto de esta carta no es señalar nombres, acusar errores o descalificar a
                                         persona alguna. Solo pretende llevar un poco de luz en las tinieblas. Quien la
                                         escribe está próximo a cumplir 94 años, y recuerda lo que decía el ilustre
@@ -319,7 +322,8 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="text-left">
-                            <a href="mailto:contacto@noticias.com">Escribinos a contacto@noticias.com</a>
+                            <a class="link-modif" href="mailto:contacto@noticias.com">Escribinos a
+                                contacto@noticias.com</a>
                         </div>
                     </div>
                     <div class="col-md-2">
@@ -339,11 +343,11 @@
                     <div class="col-md-5">
                         <div class="text-right">
                             <nav>
-                                <a href=".\index.html">INICIO</a>
-                                <a href="./pages/locales.html">LOCALES</a>
-                                <a href="./pages/nacionales.html">NACIONALES</a>
-                                <a href="./pages/contacto.html">CONTACTO</a>
-                                <a href="./pages/quienessomos.html">QUIENES SOMOS</a>
+                                <a class="link-modif" href="./index.html">INICIO</a>
+                                <a class="link-modif" href="./pages/locales.html">LOCALES</a>
+                                <a class="link-modif" href="./pages/nacionales.html">NACIONALES</a>
+                                <a class="link-modif" href="./pages/contacto.html">CONTACTO</a>
+                                <a class="link-modif" href="./pages/quienessomos.html">QUIENES SOMOS</a>
                             </nav>
                         </div>
                     </div>

@@ -1,0 +1,45 @@
+.img-format:hover {
+    transform: scale(1.02);
+} */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html {
+font-family: 'Lato', sans-serif;
+}
+.link-modif {
+color: rgb(0, 0, 0);
+transition: transform 1s;
+&:hover {
+    transform: scale(1.25);
+    color: rgb(0, 0, 0);
+}
+}
+.btn-modif {
+background-color: rgba(128, 128, 128, 0.500);
+border-color: rgb(255, 255, 255);
+&:hover {
+    background-color: rgba(46, 42, 42, 0.500);
+    border-color: rgb(255, 255, 255);
+}
+}
+@media screen and (max-width: 1200px) {
+.text-carousel-modif {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 1025px) {
+.text-carousel-modif {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 925px) {
+.text-carousel-modif {
+    color: rgb(0, 0, 0);
+    p {
+        font-size: 0;
+    }
+}
+}

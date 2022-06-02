@@ -1,14 +1,7 @@
 @charset "UTF-8";
 
-/*!
- * ImageHover.css - http://www.imagehover.io
- * Version 2.0
- * Author: Ciarán Walsh
+/* ImageHover.css - http://www.imagehover.io */
 
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
-
- */
 [class*=" imghvr-"],
 [class^=imghvr-] {
     position: relative;
@@ -1086,4 +1079,3 @@
 .snip1571.hover figcaption:before {
     right: -5px;
 }
-
