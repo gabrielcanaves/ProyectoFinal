@@ -12,6 +12,7 @@
 /* aplica a todo el documento */
 html {
   font-family: 'Lato', sans-serif;
+  font-style: normal;
   /*font-size: 62.5%;*/
 }
 
@@ -29,6 +30,14 @@ html {
   color: black;
 }
 
+.text-carousel-modif {
+  -webkit-text-stroke: 0.35px black;
+}
+
+.text-carousel-modif p {
+  -webkit-text-stroke: 0.2px black;
+}
+
 .btn-modif {
   background-color: rgba(128, 128, 128, 0.5);
   border-color: white;
@@ -39,40 +48,36 @@ html {
   border-color: white;
 }
 
+.html--text-oblique {
+  font-style: oblique;
+}
+
 @media screen and (max-width: 1200px) {
   .text-carousel-modif {
     font-size: 13px;
+    /*font-size: 13px;*/
   }
 }
 
 @media screen and (max-width: 1025px) {
   .text-carousel-modif {
     font-size: 12px;
+    /*font-size: 12px;*/
   }
 }
 
 @media screen and (max-width: 925px) {
   .text-carousel-modif {
     color: black;
+    font-size: 13px;
+    /*font-size: 13px;*/
+    -webkit-text-stroke: 0.2px white;
   }
 
   .text-carousel-modif p {
     font-size: 0;
+    /*font-size: 0;*/
   }
-}
-
-@media screen and (max-width: 768px) {
-  /*.img-format {
-        box-shadow: 3px 3px 0;
-        box-shadow: 3px 3px 2px;
-        box-shadow: 3px 3px 10px;
-        box-shadow: 3px 3px 40px;
-     .img-format {
-        transition: transform .5s;
-    }
-    .img-format:hover {
-        transform: scale(1.02);
-    } */
 }
 
 /*# sourceMappingURL=estilos.css.map */

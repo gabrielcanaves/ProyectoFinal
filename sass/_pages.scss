@@ -1,0 +1,31 @@
+.link-modif {
+    color: map-get($colors, black_0);
+    transition: transform 1s;
+}
+
+.link-modif:hover {
+    transform: $scale;
+    color: map-get($colors, black_0);
+}
+
+.text-carousel-modif {
+    -webkit-text-stroke: 0.35px map-get($colors, black_0);
+}
+
+.text-carousel-modif p {
+    -webkit-text-stroke: 0.2px map-get($colors, black_0);
+}
+
+.btn-modif {
+    background-color: map-get($colors, gray_light);
+    border-color: map-get($colors, white_0);
+}
+
+.btn-modif:hover {
+    background-color: map-get($colors, gray_dark);
+    border-color: map-get($colors, white_0);
+}
+
+.html--text-oblique {
+    font-style: oblique;
+}
