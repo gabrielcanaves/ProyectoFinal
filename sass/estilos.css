@@ -12,7 +12,6 @@
 html {
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  /*font-size: 62.5%;*/
 }
 
 .link-modif {
@@ -54,14 +53,12 @@ html {
 @media screen and (max-width: 1200px) {
   .text-carousel-modif {
     font-size: 13px;
-    /*font-size: 13px;*/
   }
 }
 
 @media screen and (max-width: 1025px) {
   .text-carousel-modif {
     font-size: 12px;
-    /*font-size: 12px;*/
   }
 }
 
@@ -69,12 +66,52 @@ html {
   .text-carousel-modif {
     color: black;
     font-size: 13px;
-    /*font-size: 13px;*/
     -webkit-text-stroke: 0.2px white;
   }
   .text-carousel-modif p {
     font-size: 0;
-    /*font-size: 0;*/
+  }
+  .card-text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption h4 {
+    font-size: 15px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+  .card-text {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-caption h4 {
+    font-size: 0;
+  }
+  .card-title {
+    font-size: 24px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card-title {
+    font-size: 15px;
+  }
+  .card-text {
+    font-size: 0;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .card-title {
+    font-size: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

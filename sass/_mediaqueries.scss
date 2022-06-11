@@ -1,14 +1,12 @@
 @media screen and (max-width: 1200px) {
     .text-carousel-modif {
         @include mediaq(13px);
-        /*font-size: 13px;*/
     }
 }
 
 @media screen and (max-width: 1025px) {
     .text-carousel-modif {
         @include mediaq(12px);
-        /*font-size: 12px;*/
     }
 }
 
@@ -16,12 +14,58 @@
     .text-carousel-modif {
         color: map-get($colors, black_0);
         @include mediaq(13px);
-        /*font-size: 13px;*/
         -webkit-text-stroke: 0.2px map-get($colors, white_0);
     }
 
     .text-carousel-modif p {
         @include mediaq(0);
-        /*font-size: 0;*/
+    }
+
+    .card-text {
+        @include mediaq(25px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-caption h4 {
+        @include mediaq(15px);
+    }
+
+    .card-title {
+        @include mediaq(35px);
+    }
+
+    .card-text {
+        @include mediaq(24px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carousel-caption h4 {
+        @include mediaq(0);
+    }
+
+    .card-title {
+        @include mediaq(24px);
+    }
+
+    .card-text {
+        @include mediaq(16px);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .card-title {
+        @include mediaq(15px);
+    }
+
+    .card-text {
+        @include mediaq(0);
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .card-title {
+        @include mediaq(0);
     }
 }
