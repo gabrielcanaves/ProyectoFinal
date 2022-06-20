@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 500px) {
     .carousel-caption h4 {
-        @include mediaq(15px);
+        @include mediaq(22px);
     }
 
     .card-title {
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 400px) {
     .carousel-caption h4 {
-        @include mediaq(0);
+        font-size: 16px;
     }
 
     .card-title {
@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 300px) {
+    .carousel-caption h4 {
+        font-size: 10px;
+    }
+
     .card-title {
         @include mediaq(15px);
     }
@@ -64,7 +68,11 @@
     }
 }
 
-@media screen and (max-width: 230px) {
+@media screen and (max-width: 250px) {
+    .carousel-caption h4 {
+        @include mediaq(0);
+    }
+
     .card-title {
         @include mediaq(0);
     }
